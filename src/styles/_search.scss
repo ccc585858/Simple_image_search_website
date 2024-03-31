@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: ce;
+
+  padding: 3rem 0rem;
+
+  input {
+    outline: none;
+  }
+
+  input,
+  button {
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 1px solid rgb(79, 79, 79);
+  }
+  button {
+    background-color: rgb(156, 129, 216);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    svg {
+      margin-top: 0.15rem;
+    }
+  }
+}

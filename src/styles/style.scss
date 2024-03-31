@@ -1,0 +1,43 @@
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: rgb(36, 36, 36);
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: rgb(156, 129, 216);
+    cursor: pointer;
+  }
+}
